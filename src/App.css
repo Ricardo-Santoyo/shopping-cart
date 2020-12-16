@@ -1,3 +1,24 @@
 .App {
   text-align: center;
 }
+
+Nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.navlinks {
+  list-style: none;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+}
