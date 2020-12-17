@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Item(props) {
+function ItemDetails(props) {
   return (
     <div className="item">
       <img src={props.src} alt="Cardboard Box"></img>
@@ -10,4 +10,4 @@ function Item(props) {
   );
 }
 
-export default Item;
+export default ItemDetails;

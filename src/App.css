@@ -22,3 +22,27 @@ Nav {
   text-decoration: none;
   color: white;
 }
+
+#catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#catalog a {
+  margin: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.item {
+  max-width: 300px;
+  box-sizing: border-box;
+  border: 3px black solid;
+  padding: 5px;
+}
+
+.item img {
+  width: 100%;
+}
