@@ -12,7 +12,7 @@ Nav {
 
 .navlinks {
   list-style: none;
-  width: 50%;
+  width: 70%;
   padding: 0;
   display: flex;
   justify-content: space-around;
@@ -21,6 +21,10 @@ Nav {
 .navlinks a {
   text-decoration: none;
   color: white;
+}
+
+#cartIcon {
+  width: 14px;
 }
 
 #catalog {
@@ -43,6 +47,16 @@ Nav {
   padding: 5px;
 }
 
-.item img {
+.item img,
+.itemDetails img {
   width: 100%;
+}
+
+.itemDetails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  max-width: 700px;
 }
