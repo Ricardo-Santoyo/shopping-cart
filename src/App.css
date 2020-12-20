@@ -32,6 +32,7 @@ Nav {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #catalog a {
@@ -56,10 +57,75 @@ Nav {
 .itemDetails {
   display: flex;
   flex-wrap: wrap;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .image {
   max-width: 700px;
+}
+
+.details {
+  text-align: center;
+  align-self: center;
+}
+
+.details h2 {
+  font-size: 30px;
+}
+
+.details p {
+  font-size: 18px;
+}
+
+.quantityInput {
+  display: flex;
+  justify-content: center;
+}
+
+.quantityInput input {
+  font-size: 18px;
+  border-color: black;
+  box-sizing: border-box;
+  padding: 0;
+  height: 30px;
+  width: 34px;
+  text-align: center;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantityInput button,
+.addButton {
+  border: 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  outline: none;
+}
+
+.quantityInput button:hover,
+.addButton:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+.addButton {
+  width: 94px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 #cart {
@@ -113,4 +179,10 @@ Nav {
   margin: 10px auto;
   padding: 0 10px;
   box-sizing: border-box;
+}
+
+@media (max-width:916px) {
+  .itemDetails {
+    justify-content: center;
+  }
 }
