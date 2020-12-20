@@ -21,7 +21,7 @@ function ItemDetails({match}) {
       </div>
       <div className="details">
         <h2>{item.name}</h2>
-        <p>{item.price}</p>
+        <p>{`$${item.price}`}</p>
         <button onClick={() => {if (quantity >= 2) setQuantity(quantity - 1)}}>-</button>
         <input type="number" value={quantity} onChange={handleChange}></input>
         <button onClick={() => {if (quantity <= 9) setQuantity(quantity + 1)}}>+</button>

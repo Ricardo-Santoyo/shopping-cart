@@ -4,11 +4,11 @@ import Item from './Item';
 import Box from './cardboardbox.jpg'
 
 const items = [
-  {src:Box, name:'Cardboard Box', price:'$350'},{src:Box, name:'Cardboard Box', price:'$350'},
-  {src:Box, name:'Cardboard Box', price:'$350'},{src:Box, name:'Cardboard Box', price:'$350'},
-  {src:Box, name:'Cardboard Box', price:'$350'},{src:Box, name:'Cardboard Box', price:'$350'},
-  {src:Box, name:'Cardboard Box', price:'$350'},{src:Box, name:'Cardboard Box', price:'$350'},
-  {src:Box, name:'Cardboard Box', price:'$350'},{src:Box, name:'Cardboard Box', price:'$350'}
+  {src:Box, name:'Cardboard Box', price:350},{src:Box, name:'Cardboard Box', price:350},
+  {src:Box, name:'Cardboard Box', price:350},{src:Box, name:'Cardboard Box', price:350},
+  {src:Box, name:'Cardboard Box', price:350},{src:Box, name:'Cardboard Box', price:350},
+  {src:Box, name:'Cardboard Box', price:350},{src:Box, name:'Cardboard Box', price:350},
+  {src:Box, name:'Cardboard Box', price:350},{src:Box, name:'Cardboard Box', price:350}
 ];
 
 function Shop() {
@@ -17,7 +17,7 @@ function Shop() {
     <div id="catalog">
       {items.map((item, id) => (
         <Link key={id} to={`/shop/${id}`}>
-          <Item src={item.src} name={item.name} price={item.price} />
+          <Item src={item.src} name={item.name} price={`$${item.price}`} />
         </Link>
       ))}
     </div>
