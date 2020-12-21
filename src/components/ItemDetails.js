@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { items } from './Shop';
 import { cart } from './Cart';
 
-function ItemDetails({match}) {
+function ItemDetails({match, updateItemCount}) {
   const item = items[match.params.id];
   const [quantity, setQuantity] = useState(1);
 
@@ -27,7 +27,7 @@ function ItemDetails({match}) {
           <input type="number" value={quantity} onChange={handleChange}></input>
           <button onClick={() => {if (quantity <= 9) setQuantity(quantity + 1)}}>+</button>
         </div>
-        <button className="addButton" onClick={addToCart}>ADD</button>
+        <button className="addButton" onClick={()=> {addToCart(); updateItemCount(quantity);}}>ADD</button>
       </div>
     </div>
   );

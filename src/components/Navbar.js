@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ReactComponent as BoxIcon } from './box-icon.svg';
 import { ReactComponent as CartIcon } from './shopping-cart.svg';
-import { cart } from './Cart';
 
-function Navbar() {
+function Navbar(props) {
   return (
     <nav>
       <ul className="navlinks">
@@ -22,7 +21,7 @@ function Navbar() {
 
         <Link to="/cart">
           <li id="cartIcon"><CartIcon />
-            <span id="cartNumber">{cart.length}</span>
+            <span id="cartNumber">{props.itemCount}</span>
           </li>
         </Link>
       </ul>

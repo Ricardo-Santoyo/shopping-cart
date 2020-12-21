@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 let cart = [];
 
-function Cart() {
+function Cart({updateItemCount}) {
   const [cartArray, setCartArray] = useState(cart);
 
   function calculateTotal() {
@@ -21,6 +21,7 @@ function Cart() {
   };
 
   function removeCartItem(e) {
+    updateItemCount(-cart[e.target.dataset.id].quantity);
     cart.splice(e.target.dataset.id, 1);
     setCartArray([...cart]);
   };
