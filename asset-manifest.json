@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.ec38bbe7.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.431a5588.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.431a5588.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.b56c1ee8.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.b56c1ee8.js.map",
+    "static/js/2.67337381.chunk.js": "/shopping-cart/static/js/2.67337381.chunk.js",
+    "static/js/2.67337381.chunk.js.map": "/shopping-cart/static/js/2.67337381.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.ec38bbe7.chunk.css.map": "/shopping-cart/static/css/main.ec38bbe7.chunk.css.map",
+    "static/js/2.67337381.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.67337381.chunk.js.LICENSE.txt",
+    "static/media/box-icon.3e7b7b3b.svg": "/shopping-cart/static/media/box-icon.3e7b7b3b.svg",
+    "static/media/cardboardbench.88377f20.jpg": "/shopping-cart/static/media/cardboardbench.88377f20.jpg",
+    "static/media/cardboardbookshelf.81d9dcd2.jpg": "/shopping-cart/static/media/cardboardbookshelf.81d9dcd2.jpg",
+    "static/media/cardboardbox.3b878a20.jpg": "/shopping-cart/static/media/cardboardbox.3b878a20.jpg",
+    "static/media/cardboardchair.0d4a2de7.jpg": "/shopping-cart/static/media/cardboardchair.0d4a2de7.jpg",
+    "static/media/cardboardclotheshanger.2527c4e7.jpg": "/shopping-cart/static/media/cardboardclotheshanger.2527c4e7.jpg",
+    "static/media/cardboardguitar.6d34585a.jpg": "/shopping-cart/static/media/cardboardguitar.6d34585a.jpg",
+    "static/media/cardboardroundtable.503aaa22.jpg": "/shopping-cart/static/media/cardboardroundtable.503aaa22.jpg",
+    "static/media/cardboardshoes.ef4e5583.jpeg": "/shopping-cart/static/media/cardboardshoes.ef4e5583.jpeg",
+    "static/media/cardboardsofa.7245d0fc.png": "/shopping-cart/static/media/cardboardsofa.7245d0fc.png",
+    "static/media/shopping-cart.d146d6c3.svg": "/shopping-cart/static/media/shopping-cart.d146d6c3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b56c1ee8.js",
+    "static/js/2.67337381.chunk.js",
+    "static/css/main.ec38bbe7.chunk.css",
+    "static/js/main.431a5588.chunk.js"
+  ]
+}
