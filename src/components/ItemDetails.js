@@ -12,8 +12,13 @@ function ItemDetails({match, updateItemCount}) {
   };
 
   function addToCart() {
-    cart.push({...item, quantity:quantity});
-  }
+    let match = cart.findIndex((cartItem) => cartItem.name === item.name);
+    if (match !== -1) {
+      cart[match].quantity += quantity;
+    } else {
+      cart.push({...item, quantity:quantity});
+    }
+  };
 
   return (
     <div className="itemDetails">
