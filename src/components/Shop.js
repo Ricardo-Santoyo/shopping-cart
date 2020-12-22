@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import Item from './Item';
-import Box from './cardboardbox.jpg'
+import Box from './images/cardboardbox.jpg'
 
 const items = [
   {src:Box, name:'Cardboard Box', price:350},{src:Box, name:'Cardboard Box', price:350},
