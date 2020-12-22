@@ -137,6 +137,10 @@ Nav {
   font-size: 18px;
 }
 
+.details a {
+  text-decoration: none;
+}
+
 .quantityInput {
   display: flex;
   justify-content: center;
@@ -164,7 +168,8 @@ input[type=number] {
 }
 
 .quantityInput button,
-.addButton {
+.addButton,
+.backButton {
   border: 0;
   padding: 0;
   font-size: 20px;
@@ -177,16 +182,23 @@ input[type=number] {
 
 .quantityInput button:hover,
 .addButton:hover,
-#home button:hover {
+#home button:hover,
+.backButton:hover {
   cursor: pointer;
   background-color: #444;
 }
 
-.addButton {
+.addButton,
+.backButton {
+  display: block;
   width: 94px;
-  height: 30px;
+  margin: 0 auto;
   font-weight: bold;
   margin-top: 15px;
+}
+
+.backButton {
+  margin-bottom: 25px;
 }
 
 #cart {
@@ -238,11 +250,12 @@ input[type=number] {
 #cart h2 {
   max-width: 500px;
   margin: 10px auto;
+  margin-bottom: 20px;
   padding: 0 10px;
   box-sizing: border-box;
 }
 
-@media (max-width:916px) {
+@media (max-width:1085px) {
   .itemDetails {
     justify-content: center;
   }

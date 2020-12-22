@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { items } from './Shop';
 import { cart } from './Cart';
 
@@ -28,6 +29,9 @@ function ItemDetails({match, updateItemCount}) {
           <button onClick={() => {if (quantity <= 9) setQuantity(quantity + 1)}}>+</button>
         </div>
         <button className="addButton" onClick={()=> {addToCart(); updateItemCount(quantity);}}>ADD</button>
+        <Link to="/shop">
+          <button className="backButton">⇦ BACK</button>
+        </Link>
       </div>
     </div>
   );
