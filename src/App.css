@@ -104,6 +104,10 @@ Nav {
   padding: 5px;
 }
 
+.item img {
+  max-height: 192px;
+}
+
 .item img,
 .itemDetails img,
 #cart img {
